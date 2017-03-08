@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nordic Olympiad in Informatics</title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    <title>National Olympiad in Informatics</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
   </head>
   <body>
     <div class="row"> <div class="large-12 columns"> <p> </div> </div>
@@ -16,6 +17,31 @@
 		  <p>
 	    <img src="static/logo.svg" width="100%">
       </div>
+<!--
+      <div class="large-12 columns">
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li><a href="/rules">Two</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li>
+        <a href="#">National Olympiads</a>
+        <ul class="menu vertical">
+          <li><a href="https://cses.fi/">Finland</a></li>
+          <li><a href="http://www.ru.is/forritun/">Iceland</a></li>
+          <li><a href="http://nio.no">Norway</a></li>
+          <li><a href="http://progolymp.se">Sweden</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+	  </div>
+-->
     </div>
 
     <div class="row">
@@ -24,7 +50,7 @@
 			<h1>NOI 2017</h1>
 			<p>
 			The Nordic Olympiad in Informatics 2017 was held on the 8th of March.
-			Results are available <a href="https://noi17.kattis.com">here</a>.
+			Results are available <a href="/results2017">here</a>.
 
 			<p>
 			The three selected tasks were Subway (from Sweden), Yule Lads (from Iceland), and IP over Avian Carrier (from Finland).
@@ -62,5 +88,8 @@
         </div>
       </div>
     </div>
+    <script>
+      $(document).foundation();
+    </script>
   </body>
 </html>
