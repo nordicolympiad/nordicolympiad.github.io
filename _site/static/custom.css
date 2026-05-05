@@ -1,0 +1,26 @@
+/* Custom Styles for Navbar */
+.top-bar {
+    background-color: #004b87; /* Nordic blue */
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar ul, .top-bar .menu {
+    background-color: transparent !important;
+}
+
+.top-bar .menu > li > a {
+    color: #ffffff !important;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.top-bar .menu > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    transform: translateY(-2px);
+}
