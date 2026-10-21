@@ -33,6 +33,15 @@
     .callout td[width] {
         display: none;
     }
+
+    /* Keep the navbar links from overflowing */
+    .top-bar {
+        padding: 6px 8px;
+    }
+
+    .top-bar .menu > li > a {
+        padding: 12px 10px;
+    }
 }
 
 .callout a {
