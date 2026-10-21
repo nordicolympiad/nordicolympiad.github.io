@@ -36,10 +36,18 @@
 	}
     </style>
 
+    <style>
+    body { min-width: 0; }
+    .results-wrap { max-width: 800px; margin-left: auto; margin-right: auto; overflow-x: auto; }
+    .back-link { display: inline-block; margin: 16px 0; }
+    @media (max-width: 832px) { .results-wrap { padding: 0 8px; } }
+    </style>
 </head>
 
 <body class="page-standings-standalone">
-<div style="width: 800px; margin-left: auto; margin-right: auto;">
+<div class="results-wrap">
+<a class="back-link" href="/">&larr; Back to all contests</a>
+
 
         <table id="standings" class="table table-kattis kattis-table-contest-standings">
                 <thead>    <tr>

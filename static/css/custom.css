@@ -22,3 +22,19 @@
 .top-bar .menu > li > a:hover {
     background-color: rgba(255, 255, 255, 0.2) !important;
 }
+
+/* Mobile: stack the Statements/Solutions/Test Data columns */
+@media (max-width: 640px) {
+    .callout table, .callout tbody, .callout tr, .callout td {
+        display: block;
+        width: auto;
+    }
+
+    .callout td[width] {
+        display: none;
+    }
+}
+
+.callout a {
+    overflow-wrap: anywhere;
+}
